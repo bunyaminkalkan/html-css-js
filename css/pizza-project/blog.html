@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+
+    <!-- Header start -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Product</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html" class="active">Blogs</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="Search Here"/>
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu-1">
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu-2">
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$13.41/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu-3">
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu-4">
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$19.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Checkout now</a>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Blog Start -->
+    <section class="blog" id="blog">
+      <h1 class="heading">our <span>blog</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog-1" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 12th apr, 2024</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, perferendis.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog-2" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 12th apr, 2024</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, perferendis.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog-3" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 12th apr, 2024</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, perferendis.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="btn btn-primary">Search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook">
+        <a href="#" class="fab fa-twitter">
+        <a href="#" class="fab fa-instagram">
+        <a href="#" class="fab fa-linkedin">
+        <a href="#" class="fab fa-pinterest">
+        </a>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Product</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html" class="active">Blogs</a>
+      </div>
+      <div class="credit">
+        created by <span>Bunyamin Kalkan</span> | all rights reserved &#169;
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
